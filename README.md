@@ -32,22 +32,22 @@ YOU ARE HERE
 ┌─────────────────────────────────────────────────────────┐
 │  01_Foundations        "What is actually happening      │
 │                         inside the machine?"            │
-│  ── Memory_Management  → How RAM is carved and reclaimed │
-│  ── Concurrency        → How a CPU shares itself fairly  │
+│  ── Memory_Management  → How RAM is carved and reclaimed│
+│  ── Concurrency        → How a CPU shares itself fairly │
 └────────────────────────┬────────────────────────────────┘
                          │  once you can answer the above
                          ▼
 ┌─────────────────────────────────────────────────────────┐
 │  02_Architectures      "How do you build something      │
 │                         that survives scale?"           │
-│  ── Event_Loops        → Serving 10,000 clients at once  │
-│  ── Virtual_Machines   → Abstracting the CPU itself      │
+│  ── Event_Loops        → Serving 10,000 clients at once │
+│  ── Virtual_Machines   → Abstracting the CPU itself     │
 └────────────────────────┬────────────────────────────────┘
                          │  once you understand the patterns
                          ▼
 ┌─────────────────────────────────────────────────────────┐
 │  03_Domain_Mastery     "How do the masters apply        │
-│                         these patterns in the wild?"   │
+│                         these patterns in the wild?"    │
 │  ── Audio_DSP          → android/audio.h (first Grail)  │
 │  ── Graphics_Engines   → Quake's q_math.c               │
 └────────────────────────┬────────────────────────────────┘
@@ -55,7 +55,7 @@ YOU ARE HERE
                          ▼
 ┌─────────────────────────────────────────────────────────┐
 │  04_The_Graveyard      "What did we sacrifice to get    │
-│                         here — and why?"               │
+│                         here — and why?"                │
 │  ── Deprecated Grails  → Files that were once the gold  │
 │                           standard. Their epitaphs      │
 │                           teach more than their code.   │
