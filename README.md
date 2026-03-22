@@ -138,15 +138,15 @@ Do not simply *read* these files. **Interrogate them.**
 
 | Grail | Domain | The Lesson |
 |---|---|---|
-| `malloc.c` — Doug Lea | Memory Management | Boundary tags, binning, and the art of managing the void |
+| [`malloc.c`](https://gee.cs.oswego.edu/dl/html/malloc.html) — Doug Lea | Memory Management | Boundary tags, binning, and the art of managing the void |
 | `kernel/sched/core.c` — Linux | Concurrency | How a CPU shares itself fairly across a thousand tasks |
 
 ### 02 — Architectures
 
 | Grail | Domain | The Lesson |
 |---|---|---|
-| `ngx_event.c` — nginx | Event Loops | Serving 10,000 concurrent clients with a single thread |
-| `lvm.c` | Virtual Machines | How to abstract an instruction set into portability |
+| [`ngx_event.c`](https://github.com/nginx/nginx/blob/master/src/event/ngx_event.c) — nginx | Event Loops | Serving 10,000 concurrent clients with a single thread |
+| [`lvm.c`](https://github.com/lua/lua/blob/master/lvm.c) | Virtual Machines | How to abstract an instruction set into portability |
 
 ### 03 — Domain Mastery
 
