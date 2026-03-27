@@ -1,4 +1,4 @@
-# 🏺 The Decoder: `core.c` — Segment 1 of 6  
+# The Decoder: `core.c` — Segment 1 of 6  
 ## *The Runqueue: The Waiting Room of the CPU*
 
 > **Domain:** Operating Systems / Scheduling / Systems Programming  
@@ -9,7 +9,7 @@
 
 ---
 
-## 🔍 The "Deep Root" Context
+## The "Deep Root" Context
 
 ### Why "Per-CPU" Runqueues Exist
 
@@ -40,7 +40,7 @@ This structure is called:
 
 ---
 
-## 📜 The "Literate" Map: `struct rq`
+## The "Literate" Map: `struct rq`
 
 Search for `struct rq` in `core.c`. It represents the **entire scheduling state of a single CPU**.
 
@@ -54,7 +54,7 @@ Search for `struct rq` in `core.c`. It represents the **entire scheduling state 
 
 ---
 
-## 🧠 Mental Model: The "Gym Membership"
+## Mental Model: The "Gym Membership"
 
 Think of the CPU as a gym:
 
@@ -71,7 +71,7 @@ Think of the CPU as a gym:
 
 ---
 
-## ⚡ The Modern Mirror: Cache Locality
+## The Modern Mirror: Cache Locality
 
 Why does Linux try to keep tasks on the **same CPU**?
 
@@ -94,7 +94,7 @@ If a task moves from CPU 0 → CPU 5:
 
 ---
 
-## 🛠️ The "Build & Break" Challenges
+## The "Build & Break" Challenges
 
 ### 1. The Core Count
 

@@ -1,4 +1,4 @@
-# 🏺 The Decoder: `nbtsearch.c` — PostgreSQL B-Tree Search
+# The Decoder: `nbtsearch.c` — PostgreSQL B-Tree Search
 
 > **Domain:** Database Internals / Indexing / High-Concurrency Data Structures
 > **Source:** [`postgres/src/backend/access/nbtree/nbtsearch.c`](https://github.com/postgres/postgres/blob/master/src/backend/access/nbtree/nbtsearch.c)
@@ -8,7 +8,7 @@
 
 ---
 
-## 🔍 The "Deep Root" Context
+## The "Deep Root" Context
 
 *Why does this file exist?*
 
