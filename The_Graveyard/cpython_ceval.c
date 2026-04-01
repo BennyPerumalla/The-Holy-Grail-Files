@@ -1,4 +1,9 @@
 /* Execute compiled code */
+```
+   See Copyright Notices in Python's source code.
+
+   This file implements the main evaluation loop and related functions.
+*/
 
 #include "ceval.h"
 #include "pycore_long.h"
